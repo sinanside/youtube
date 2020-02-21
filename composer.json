@@ -1,5 +1,5 @@
 {
-    "name": "sahusoftcom/youtube-livestream-api",
+    "name": "sinanside/youtube",
     "description": "PHP (Laravel) Package for Google / YouTube API of Video Live Streaming with Google Auth",
     "keywords": ["google-api", "youtube-api", "live-streaming", "livestreaming", "laravel", "youtube-api-v3", "google-sdk"],
     "homepage": "https://github.com/sahusoftcom/youtube-livestream-api",
@@ -12,6 +12,7 @@
     ],
     "require": {
         "php": ">=5.5.9",
+        "laravel/framework": "^6.0",
         "google/apiclient": "^2.0"
     },
     "autoload": {
